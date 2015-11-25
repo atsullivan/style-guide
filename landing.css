@@ -1,0 +1,95 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.main-section {
+  padding: 40px 15px;
+}
+
+h2 {
+	font-size: 15px;
+	color: #A6A6A6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.navbar {
+	background-color: #3770BF;
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #A2B5DE;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #3770BF;
+    border-bottom: 5px solid #FDFF77;
+}
+
+.header {
+	padding-top: 30px;
+	/*padding-bottom: 30px;*/
+	color: white;
+	background-color: #3770BF;
+	/*background: url("img/bg.jpg");*/
+
+}
+
+.header > h3 {
+	text-transform: uppercase;
+	padding-left: 11vw;
+	padding-top: 50px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+.header > h1 {
+	padding-bottom: 50px;
+	padding-left: 11vw;
+	font-weight: 100;
+	font-size: 70px;
+}
+
+.color-block {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+.color-block:hover {
+	cursor: pointer;
+}
+
+.color-block:active {
+	background-color: black;
+}
+
+.color-section {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+p {
+	text-align: center;
+}
+
+.color-block-red {
+	background-color: red;
+}
+
+.color-block-blue {
+	background-color: blue;
+}
